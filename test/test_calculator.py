@@ -6,3 +6,7 @@ def test_sub():
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
+def test_divide():
+    assert divide(10, 2) == 5
+    assert divide(9, 3) == 3
+    assert divide(-8, 2) == -4
