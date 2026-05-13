@@ -22,3 +22,8 @@ def test_divide():
     assert divide(10, 2) == 5
     assert divide(9, 3) == 3
     assert divide(-8, 2) == -4
+
+
+def test_modulo():
+    assert modulo(10, 3) == 1
+    assert modulo(9, 3) == 0
