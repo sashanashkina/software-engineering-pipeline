@@ -8,3 +8,7 @@ def test_multiply():
     assert multiply(0, 5) == 0
 def test_power():
     assert power(1,5)==1
+def test_divide():
+    assert divide(10, 2) == 5
+    assert divide(9, 3) == 3
+    assert divide(-8, 2) == -4
